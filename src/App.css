@@ -1,0 +1,97 @@
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 1150px;
+    margin: auto;
+}
+.navbar, .btns{
+
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   justify-content: space-between;
+
+}
+
+.left-menu ul{
+
+    display: flex;
+    flex-direction: row;   
+    gap: 30px;
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+.contact-info{
+    width: 75%;
+    margin: auto;
+    line-height: 1.5rem;
+}
+
+.contact-form{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    
+}
+
+#form-btn{
+    transition: .5s all;
+}
+
+#form-btn:hover{
+    scale:1.05;
+}
+
+.black-btn{
+
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    min-width: 220px;
+    border-radius: 5px;
+}
+
+.white-btn{
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    min-width: 220px;
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 15px 0;
+    
+}
+
+.input-field{
+    position: relative;
+}
+
+label{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    background-color: white;
+    padding: 0 15px;
+}
+
+.submit{
+    display: flex;
+    justify-content: end;
+}
+
+.right-side img{
+    width: 100%;
+}
